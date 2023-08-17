@@ -3,7 +3,7 @@
 
 
 ![Static Badge](https://img.shields.io/badge/Language-C++(Arduino)-blue) 
-![GitHub all releases](https://img.shields.io/github/downloads/cMardc/Dynamic_Arrayduino/total)
+<img src='https://camo.githubusercontent.com/755bb11263af7dd8a1754aabd6faca950bb935701f7d5f9b7a6359d21e9c6d45/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f646f776e6c6f6164732f634d617264632f44796e616d69635f41727261796475696e6f2f746f74616c'>
 ![GitHub](https://img.shields.io/github/license/cMardc/Dynamic_Arrayduino)
 
 <h3>A dynamic array library for arduino</h3>
