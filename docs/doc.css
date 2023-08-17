@@ -1,0 +1,21 @@
+
+
+#code {
+    background-color: #333333;
+    border-style: solid;
+    border-color: #222222;
+    color: whitesmoke;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+}
+
+.codeH {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.codeP {
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}

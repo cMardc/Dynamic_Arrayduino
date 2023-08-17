@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class DynamicArray</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/d2ec37db1e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="doc.css">
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" width="100" height="75">
+            Dynamic Array - Arduino
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/cMardc/Dynamic_Arrayduino">Github</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e3f2fd;">
+                <a class="dropdown-item" href="class.html">template &lt;typename T&gt; class DynamicArray</a>
+                <a class="dropdown-item" href="constuctor.html">DynamicArray()</a>
+                <a class="dropdown-item" href="destructer.html">~DynamicArray()</a>
+                <a class="dropdown-item" href="push_back.html">void push_back(const T& value)</a>
+                <a class="dropdown-item" href="pop_back.html">void pop_back()</a>
+                <a class="dropdown-item" href="remove.html">void remove(size_t index)</a>
+                <a class="dropdown-item" href="operator_T.html">T& operator[](size_t index)</a>
+                <a class="dropdown-item" href="getSize.html">size_t getSize() const</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="resize.html">void resize()</a>
+              </div>
+            </li>
+          </ul>
+          <a  href="DynamicArray.h" class="btn btn-primary my-2 my-sm-0" type="submit" style="color: white;" download>Download</a>
+        </div>
+      </nav>
+
+      
+
+
+      <div class="container">
+        <div id="code">
+            <div class="text-center">
+                <h1 class="codeH">DynamicArray()</h1>
+                <br>
+                <p class="codeP">Default constructor for the dynamic array.</p>
+                <img src="assets/consruct.png" style="width: 60vw; height: 70vh;">
+            </div>
+        </div>
+      </div>
+
+
+
+
+
+
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" width="100" height="75">
+            Dynamic Array - Arduino
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/cMardc/Dynamic_Arrayduino">Github</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Documentation
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: #e3f2fd;">
+                <a class="dropdown-item" href="class.html">template &lt;typename T&gt; class DynamicArray</a>
+                <a class="dropdown-item" href="constuctor.html">DynamicArray()</a>
+                <a class="dropdown-item" href="destructer.html">~DynamicArray()</a>
+                <a class="dropdown-item" href="push_back.html">void push_back(const T& value)</a>
+                <a class="dropdown-item" href="pop_back.html">void pop_back()</a>
+                <a class="dropdown-item" href="remove.html">void remove(size_t index)</a>
+                <a class="dropdown-item" href="operator_T.html">T& operator[](size_t index)</a>
+                <a class="dropdown-item" href="getSize.html">size_t getSize() const</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="resize.html">void resize()</a>
+              </div>
+            </li>
+          </ul>
+          <a  href="DynamicArray.h" class="btn btn-primary my-2 my-sm-0" type="submit" style="color: white;" download>Download</a>
+        </div>
+      </nav>
+</body>
+</html>
